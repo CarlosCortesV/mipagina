@@ -2,7 +2,7 @@ var express = require("express");
 const app = express();
 //primero declaramos las contates para llamar express y la app//
 //configuraciones//
-app.set("puerto",3004);
+app.set("puerto",3000);
 app.set("views","C:/Users/carlo/OneDrive/Escritorio/mipagina/src/views","views");
 app.engine("html", require("ejs").renderFile);
 app.set("view engine", "ejs");

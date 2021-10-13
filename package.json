@@ -1,0 +1,30 @@
+{
+  "name": "mipagina",
+  "version": "1.0.0",
+  "description": "Desarrolador, programador, desarrolador de software, creativo, inquieto",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [
+    "programdor",
+    "desarrolador",
+    "diseño",
+    "frontend",
+    "backend",
+    "data science",
+    "fotografo"
+  ],
+  "author": "Carlos Cortes",
+  "license": "ISC",
+  "dependencies": {
+    "@loadingio/transition.css": "^2.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mdb-ui-kit": "^3.9.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {}
+}

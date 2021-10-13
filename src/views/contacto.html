@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <title>Contacto</title>
+        <%- include("partials/head.html") %>
+    </head>
+</head>
+<body>
+    <header>
+        <%- include("partials/header.html") %>
+    </header>
+    <div class="container contact-form" id="contacto">
+        <div class="contact-image">
+            <img src="/img/logo.png" alt="Carlos Cortés"/>
+        </div>
+        <form method="post">
+            <h3>Envíame un mensaje</h3>
+           <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="txtName" class="form-control" placeholder="Nombre *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtEmail" class="form-control" placeholder="Email *" value="" />
+                    </div>
+                    
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" name="btnSubmit" class="btnContact" value="Enviar" />
+                    </div>
+                </div>
+            </div>
+        </form>
+</div>
+<%- include("partials/footer.html") %>
+</body>
+</html>

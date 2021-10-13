@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Inicio</title>
+        <%- include("partials/head.html") %>
+    </head>
+    
+<body>
+    <%- include("partials/header.html") %>
+    <div class="container-fluid inicio" id="inicio">
+      <div class="row text-left">
+        <div class="col">
+         <h1 id="hola"><strong>Hola,</strong></h1>
+        </div>
+      </div>
+      <div class="row text-left">
+        <div class="col">
+          <h2>Mi Nombre Es Carlos </h2>
+        </div>
+      </div>
+      <div class="row text-left justify-content-start">
+        <div class="col-7 mt-3" id="col_p">
+         <p> Soy un desarrolador enfocado en encontrar soluciones efectivas a los problemas, a partir de la tecnlogia. Programador, desarollador, trabajo en proyectos de electronica, fotografo y otras cosas.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mt-4">
+          <a class="btn btn-outline-secondary text-light" id="btn_init" href="/contacto">¡Contáctame!</a>
+        </div>
+      </div>
+    </div>
+    <div class="foto" id="animado">
+        <div class="perfil"><img class="fade_up" src="/img/foto_perfil.jpg" alt="foto" width="250px" id="foto_perfil">
+          <div class="perfil_redes">
+            <a href="https://github.com/CarlosCortesV"><img src="/img/github.png" alt="Github" width="30px"></a>
+            <a href="https://www.instagram.com/__cortes__/"><img src="/img/011-instagram.png" alt="Instagram" width="30px"></a>
+            <a href="https://twitter.com/_CortesSoyyo_"><img src="/img/013-twitter.png" alt="Twitter" width="30px"></a>
+            <a href="https://www.linkedin.com/in/andres-cortes-8a802616a/"><img src="/img/linkedin.png" alt="Linkedin" width="30px"></a>
+            <a href="https://www.facebook.com/carloscortesvera/"><img src="/img/001-facebook.png" alt="Facebook" width="30px"></a>
+          </div>
+        </div>
+        
+        <div class="hola fade_left">
+          <div class="conte">
+            <div class="letras"><h1>Sobre mí</h1></div>
+          </div>
+          <div class="conte">
+            <div class="letras"><p>Soy un apasionado por la tecnología, vista como vehiculo para solucionar problemas. Me gusta experimentar, ser curioso y un amante de la fotografía.
+                
+            </p></div>
+          </div>
+          <div>
+            <div class="letras">
+                <h5>Skills</h5>
+            </div>
+          </div>
+          <div id="skills" >
+              <!-- Creo una lista con todos los skills -->
+            <ul> 
+                <li>JavaScript</li> 
+                <progress id="javascript" max="100" value="60"></progress> <!--progress invoca la opción de barra con un id para modificar y los parametros mx y val-->
+                <span></span>
+                <li>Html</li>
+                <progress id="html5" max="100" value="91"></progress>
+                <span></span>
+                <li>Css</li>
+                <progress id="css" max="100" value="80"></progress>
+                <span></span>
+                <li>Node js</li>
+                <progress id="nodejs" max="100" value="50"></progress>
+                <span></span>
+                <li>Python</li>
+                <progress id="python" max="100" value="40"></progress>
+                <span></span>
+                <li>Arduino IDE</li>
+                <progress id="arduino" max="100" value="70"></progress>
+                <span></span>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="proyectos">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+        <path fill="#020c1b" fill-opacity="1" d="M0,160L60,144C120,128,240,96,360,90.7C480,85,600,107,720,138.7C840,171,960,213,1080,224C1200,235,1320,213,1380,202.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+      </svg>
+    <div class="algunos-proyectos fade_right" >
+        <h1>Algunos proyectos</h1>
+        <p>Está es una pequeña galeria de proyectos personales y laborales. <br>¿Interesado en ver más? Visita la sección de mis proyectos</p>
+    </div>
+    
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6">
+    
+        <!--Card Wider-->
+        <div class="card card-cascade wider">
+    
+          <!--Card image-->
+          <div class="view view-cascade overlay">
+            <img src="/img/LOGO-CAOBA-2.png" class="card-img-top " height="5%"
+              alt="wider">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--/Card image-->
+    
+          <!--Card content-->
+          <div class="card-body card-body-cascade text-center">
+            <!--Title-->
+            <h4 class="card-title"><strong>Caoba</strong></h4>
+            <h5 class="indigo-text"><strong>Emprendimiento de impacto ambiental</strong></h5>
+    
+            <p class="card-text">Caboa es un proyecto ambicioso, que busca integrar la naturaleza como parte de las viviendas en espacios urbanos. </p>
+            <a href="/caoba") %>" class="btn btn-primary my-2">¡Ver más!</a>
+          </div>
+          <!--/.Card content-->
+    
+        </div>
+        <!--/.Card Wider-->
+    
+      </div>
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6">
+    
+        <!--Card Narrower-->
+        <div class="card card-cascade narrower">
+    
+          <!--Card image-->
+          <div class="view view-cascade overlay">
+            <img src="/img/drone.jpg" class="card-img-top"
+              alt="narrower">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--/.Card image-->
+    
+          <!--Card content-->
+          <div class="card-body card-body-cascade text-center">
+            <h5 class="pink-text"><i class="fas fa-utensils"></i>Drone</h5>
+            <!--Title-->
+            <h4 class="card-title">Creado con arduino</h4>
+            <!--Text-->
+            <p class="card-text">Drone funcional elaborado con la plataforma de hardware y software de arduino. 
+              Controlado a patir de la recepción de datos suministrada por un sistema de radio control.</p>
+            <a href="/drone") %>" class="btn btn-primary my-2">¡Ver más!</a>
+          </div>
+          <!--/.Card content-->
+    
+        </div>
+        <!--/.Card Narrower-->
+    
+      </div>
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6">
+    
+        <!--Card Regular-->
+        <div class="card card-cascade">
+    
+          <!--Card image-->
+          <div class="view view-cascade overlay">
+            <img src="/img/carro arduino.jpg" class="card-img-top" alt="normal">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--/.Card image-->
+    
+          <!--Card content-->
+          <div class="card-body card-body-cascade text-center">
+            <!--Title-->
+            <h4 class="card-title"><strong>Carro a control remoto</strong></h4>
+            <h5>Control a través de radio control o sistema bluetooth</h5>
+    
+            <p class="card-text">Auto desarrollado con arduino con funciones que le permiten ser capaz de detectar obstaculos y esquivarlos, 
+              sistema de señalización de movimientos a realizar y otras funciones.
+            </p>
+            <a href="/carroacontrolremoto") %>" class="btn btn-primary my-2">¡Ver más!</a>
+    
+          </div>
+          <!--/.Card content-->
+    
+        </div>
+        <!--/.Card Regular-->
+    
+      </div>
+      <!-- Grid column -->
+    
+    </div>
+    <!-- Grid row -->
+    </div>
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6">
+    
+        <!--Card Wider-->
+        <div class="card card-cascade wider">
+    
+          <!--Card image-->
+          <div class="view view-cascade overlay">
+            <img src="/img/control remoto arduino.png" class="card-img-top"
+              alt="wider">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--/Card image-->
+    
+          <!--Card content-->
+          <div class="card-body card-body-cascade text-center">
+            <!--Title-->
+            <h4 class="card-title"><strong>Control remoto</strong></h4>
+            <h5 class="indigo-text"><strong>Transmisor radial con arduino</strong></h5>
+    
+            <p class="card-text">Proyecto para la elaboración de un mando a control remoto, que permite controlar sistemas de vuelo como drones o helicopteros y a su vez, autos a control.</p>
+            <a href="/controlremoto") %>" class="btn btn-primary my-2">¡Ver más!</a>
+          </div>
+          <!--/.Card content-->
+    
+        </div>
+        <!--/.Card Wider-->
+    
+      </div>
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6">
+    
+        <!--Card Narrower-->
+        <div class="card card-cascade narrower">
+    
+          <!--Card image-->
+          <div class="view view-cascade overlay">
+            <img src="/img/lcd arduino.png" class="card-img-top"
+              alt="narrower">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--/.Card image-->
+    
+          <!--Card content-->
+          <div class="card-body card-body-cascade text-center">
+            <h5 class="pink-text"><i class="fas fa-utensils"></i>Proyección en LCD</h5>
+            <!--Title-->
+            <h4 class="card-title">Impresión por pantalla LCD</h4>
+            <!--Text-->
+            <p class="card-text">Este proyecto permite representar y ejemplificar de manera clara,
+              la aplicación de pantallas LCD en sistemas como: bloqueo de puertas, avisos, sistemas de medición entre otras muchas aplicaciones de esta tecnología.
+            </p>
+            <a href="/lcdarduino") %>" class="btn btn-primary my-2">¡Ver más!</a>
+          </div>
+          <!--/.Card content-->
+    
+        </div>
+        <!--/.Card Narrower-->
+    
+      </div>
+      <!-- Grid column -->
+    
+      <!-- Grid column -->
+      <div class="col-lg-3 col-md-6">
+    
+        <!--Card Regular-->
+        <div class="card card-cascade">
+    
+          <!--Card image-->
+          <div class="view view-cascade overlay">
+            <img src="/img/audio arduino.jpg" class="card-img-top" alt="normal">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--/.Card image-->
+    
+          <!--Card content-->
+          <div class="card-body card-body-cascade text-center">
+            <!--Title-->
+            <h4 class="card-title"><strong>Reproductor de música con arduino</strong></h4>
+            <h5>¡Listo para escuchar!</h5>
+    
+            <p class="card-text">Proyecto desarrollado con la función de permitir reproducir efectos, sonidos y música, a partir del microcontrolador arduino como interprete y una bocina emisora.
+            </p>
+            <a href="/reproductorarduino") %>" class="btn btn-primary my-2">¡Ver más!</a>
+          </div>
+          <!--/.Card content-->
+    
+        </div>
+        <!--/.Card Regular-->
+    
+      </div>
+      <!-- Grid column -->
+    
+    </div>
+    <!-- Grid row -->
+    </div>
+    <section class="certificados">
+      <div class="container1">
+        <div class="habilidades">
+          <h1>Habilidades</h1>
+        </div>
+        <hr>
+          <div class="row mbr-justify-content-center fade_right" id="padre">
+           
+                  <div class="col-lg-6 mbr-col-md-10">
+                      <div class="wrap">
+                          <div class="ico-wrap">
+                              <img src="/img/Platzi.png" alt="Platzi" width="100px" height="auto">
+                          </div>
+                          <div class="text-wrap vcenter">
+                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Platzi <!--<span>Successful</span>--></h2>
+                              <p class="mbr-fonts-style text1 mbr-text display-8">Programación Básica, Curso Profesional de Git y GitHub y Fundamentos de ingeniería de Software.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 mbr-col-md-10">
+                      <div class="wrap">
+                          <div class="ico-wrap mision">
+                              <img src="/img/misiontic.png" alt="Misión Tic" width="100px" height="auto">
+                          </div>
+                          <div class="text-wrap vcenter">
+                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Misión TIC
+                                  <!-- <span>An Effective Team</span> -->
+                              </h2>
+                              <p class="mbr-fonts-style text1 mbr-text display-8">Fundamentos de programación.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 mbr-col-md-10">
+                      <div class="wrap">
+                          <div class="ico-wrap">
+                              <img src="/img/crehana.png" alt="Crehana" width="100px" height="auto">
+                          </div>
+                          <div class="text-wrap vcenter">
+                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Crehana
+                                  <!-- <span>A Unique Project</span> -->
+                              </h2>
+                              <p class="mbr-fonts-style text1 mbr-text display-8">Introducción al Desarrollo Web front end: HTML y CSS desde cero</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 mbr-col-md-10">
+                      <div class="wrap">
+                          <div class="ico-wrap">
+                              <img src="/img/sena.png" alt="Sena" width="100px" height="auto">
+                          </div>
+                          <div class="text-wrap vcenter">
+                              <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Sena<!--<span>Your Targets</span>--></h2>
+                              <p class="mbr-fonts-style text1 mbr-text display-8">Fundamentos del diseño, Técnicas para fotografia digital y Manejo de Adobe Illustrator.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      </div>
+    </section>
+
+
+    <div class="contact-home">
+    <div class="hablemos">
+    <h1>¡Hablemos!</h2>
+    </div>  
+    <hr>
+    <div class="oportunidades">
+    <p>Me interesan las oportunidades, especialmente proyectos interesantes, inovadores y ambiciosos. <br>Sin embargo, me gustaria ayudarte si tienen una pregunta o solictud, no dudes en escribirme, ahí estare.</p>
+    </div>
+</div>
+    <div class="containe-contact fade_up"> <!-- Fromulario de contarto-->
+        <div class="row">
+            <div class="col-md-3">
+                <div class="contact-info">
+                    <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+                    <h2>Contacto</h2>
+                    <!-- <h4>We would love to hear from you !</h4> -->
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="contact-form">
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="fname">Nombre:</label>
+                      <div class="col-sm-10">          
+                        <input type="text" class="form-control" id="fname" placeholder="Nombre" name="fname">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="lname">Tema:</label>
+                      <div class="col-sm-10">          
+                        <input type="text" class="form-control" id="lname" placeholder="Sobre" name="lname">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="email">Email:</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" name="email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="comment">Mensaje:</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" rows="5" id="comment" placeholder="Hola!"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">        
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <%- include("partials/footer.html") %>
+</body>
+</html>
